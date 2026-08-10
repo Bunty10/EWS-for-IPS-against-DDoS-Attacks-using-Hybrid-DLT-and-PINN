@@ -1,0 +1,246 @@
+{
+  "train": null,
+  "test1": {
+    "detection_rate": 0.0,
+    "false_positive_rate": 0.0,
+    "warnings": {
+      "BENIGN": 14,
+      "LOW": 5
+    },
+    "traffic_data": [
+      {
+        "second": 1,
+        "FlowPackets_s": 0.2226958891029601,
+        "FlowBytes_s": 14.361283223367336,
+        "FlowDuration": 209.59800267219543,
+        "Label": "BENIGN",
+        "Warning": "LOW",
+        "score": 6.556990255576221
+      },
+      {
+        "second": 2,
+        "FlowPackets_s": 118.30000829963129,
+        "FlowBytes_s": 132766.89083045168,
+        "FlowDuration": 0.5140841007232665,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.54393462975381
+      },
+      {
+        "second": 3,
+        "FlowPackets_s": 25.01537912089171,
+        "FlowBytes_s": 26577.255799180464,
+        "FlowDuration": 183.90343022346497,
+        "Label": "BENIGN",
+        "Warning": "LOW",
+        "score": 7.538702814800595
+      },
+      {
+        "second": 4,
+        "FlowPackets_s": 57.57446285986332,
+        "FlowBytes_s": 48805.58028530577,
+        "FlowDuration": 2.8239030838012695,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.4592313676997515
+      },
+      {
+        "second": 5,
+        "FlowPackets_s": 0.0887620123617349,
+        "FlowBytes_s": 5.3701732705263865,
+        "FlowDuration": 90.12864804267883,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 4.324065430364582
+      },
+      {
+        "second": 6,
+        "FlowPackets_s": 0.2663159068021739,
+        "FlowBytes_s": 16.112570555458035,
+        "FlowDuration": 270.35566329956055,
+        "Label": "BENIGN",
+        "Warning": "LOW",
+        "score": 9.206236584186318
+      },
+      {
+        "second": 7,
+        "FlowPackets_s": 0.0886664094924994,
+        "FlowBytes_s": 5.363800516744356,
+        "FlowDuration": 90.2259271144867,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 4.319928987193601
+      },
+      {
+        "second": 8,
+        "FlowPackets_s": 1857.4417533112264,
+        "FlowBytes_s": 126491.53626797763,
+        "FlowDuration": 94.5566680431366,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 4.476656629593023
+      },
+      {
+        "second": 9,
+        "FlowPackets_s": 8.686050957475036,
+        "FlowBytes_s": 10540.522836895956,
+        "FlowDuration": 0.9210169315338136,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.550551223064555
+      },
+      {
+        "second": 10,
+        "FlowPackets_s": 0.3802517560437802,
+        "FlowBytes_s": 20.533594826364133,
+        "FlowDuration": 7.889509916305542,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.652476298107777
+      },
+      {
+        "second": 11,
+        "FlowPackets_s": 14.24035391199393,
+        "FlowBytes_s": 1174.8291977394993,
+        "FlowDuration": 0.1404459476470947,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.679600373189208
+      },
+      {
+        "second": 12,
+        "FlowPackets_s": 8901.395478738787,
+        "FlowBytes_s": 1425259.967824242,
+        "FlowDuration": 0.8991780281066892,
+        "Label": "BENIGN",
+        "Warning": "LOW",
+        "score": 9.10462313088848
+      },
+      {
+        "second": 13,
+        "FlowPackets_s": 0.261276912273011,
+        "FlowBytes_s": 26.065766655146838,
+        "FlowDuration": 61.23776173591614,
+        "Label": "BENIGN",
+        "Warning": "LOW",
+        "score": 6.941133684388489
+      },
+      {
+        "second": 14,
+        "FlowPackets_s": 80.62868127643215,
+        "FlowBytes_s": 4353.948788927336,
+        "FlowDuration": 0.0248050689697265,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 5.229080816518116
+      },
+      {
+        "second": 15,
+        "FlowPackets_s": 7.105984842003255,
+        "FlowBytes_s": 561.3728025182571,
+        "FlowDuration": 0.2814528942108154,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 3.6094061029356106
+      },
+      {
+        "second": 16,
+        "FlowPackets_s": 0.4030940978288995,
+        "FlowBytes_s": 27.962813287310986,
+        "FlowDuration": 29.769906044006348,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 1.806181261047038
+      },
+      {
+        "second": 17,
+        "FlowPackets_s": 0.2019001369875454,
+        "FlowBytes_s": 17.026911552616333,
+        "FlowDuration": 14.85883092880249,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 2.134556536020149
+      },
+      {
+        "second": 18,
+        "FlowPackets_s": 30.423816556345617,
+        "FlowBytes_s": 17668.328778192837,
+        "FlowDuration": 8.950265169143677,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 2.5287943878501857
+      },
+      {
+        "second": 19,
+        "FlowPackets_s": 19.395266677148168,
+        "FlowBytes_s": 1047.344400566001,
+        "FlowDuration": 0.1031179428100586,
+        "Label": "BENIGN",
+        "Warning": "BENIGN",
+        "score": 2.606931882961541
+      }
+    ],
+    "max_seconds": 19,
+    "confusion_matrices": {
+      "LOW": [
+        [
+          8,
+          4
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "MED": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "HIGH": [
+        [
+          12,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "confusion_metrics": {
+      "LOW": {
+        "accuracy": 0.6666666666666666,
+        "precision_attack": 0.0,
+        "recall_attack": 0.0,
+        "f1_attack": 0.0,
+        "balanced_accuracy": 0.6666666666666666
+      },
+      "MED": {
+        "accuracy": 1.0,
+        "precision_attack": 0.0,
+        "recall_attack": 0.0,
+        "f1_attack": 0.0,
+        "balanced_accuracy": 1.0
+      },
+      "HIGH": {
+        "accuracy": 1.0,
+        "precision_attack": 0.0,
+        "recall_attack": 0.0,
+        "f1_attack": 0.0,
+        "balanced_accuracy": 1.0
+      }
+    },
+    "first_low": 1.0,
+    "first_med": null,
+    "first_high": null,
+    "peak_sec": 12,
+    "peak_val": 8901.395478738787
+  },
+  "test2": null
+}
