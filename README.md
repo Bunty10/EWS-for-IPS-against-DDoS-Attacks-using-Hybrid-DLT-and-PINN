@@ -37,8 +37,8 @@ Open the URL shown (e.g. `http://localhost:5173`).
    - **Test1 / Test2:** Mixed or attack traffic (e.g. BENIGN+UDPLag). All three are processed: train once, then test1 and test2 using the same model and thresholds.
 3. Click **Upload & Analyze** – Files are uploaded, then the full DLT-NN pipeline runs for all three datasets. When done, you are redirected to Results.
 4. **Results** – First choose a **dataset** (Train | Test1 | Test2), then use the content tabs:
-   - **Train dataset:** Thresholds (L1, per-feature, residual stats), Graphs (TRAIN FlowPackets/s and FlowBytes/s vs Seconds in order), Data After Interpolation.
-   - **Test1 / Test2:** Overview (detection rate, FPR, θ, warning counts), Graphs (in notebook order: TEST label plots, LOW/MED/HIGH alerts, Combined, Kurtosis LOW/MED/HIGH), Confusion Matrix (colourful Blues-style 2×2 for LOW/MED/HIGH as ATTACK), Data After Interpolation (with Kurtosis column when available).
+   - **Train dataset:** Thresholds (per-instance, residual stats), Graphs (TRAIN FlowPackets/s and FlowBytes/s vs Seconds in order).
+   - **Test1 / Test2:** Overview (detection rate, FPR, warning counts), Graphs (in notebook order: TEST label plots, LOW/MED/HIGH alerts, Combined.
    - Graphs build sequentially from 0s to end; use **Play (0 → end)** and **Previous/Next** to move through the graph list.
 
 ## CSV Format
