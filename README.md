@@ -1,6 +1,6 @@
 # DLT-NN IDS Web Application
 
-AI-powered Intrusion Prevention using DLT (Discrete Laplace Transformation) and Neural Networks: per-second aggregation, adaptive thresholding, and LOW/MED/HIGH warnings.
+AI-powered Intrusion Prevention using `DLT (Discrete Laplace Transformation)` and `Neural Networks`: per-second aggregation, adaptive thresholding, and LOW/MED/HIGH warnings.
 
 ## Requirements
 
@@ -43,12 +43,11 @@ Open the URL shown (e.g. `http://localhost:5173`).
 
 ## CSV Format
 
-- Must include columns: 'Timestamp', 'FlowDuration','FlowBytes/s','FlowPackets/s',
-                        'FlowIATMean','FlowIATStd','FlowIATMax','FlowIATMin',
-                        'FwdIATTotal','FwdIATMean','FwdIATStd','FwdIATMax','FwdIATMin','FwdPackets/s',
-                        'BwdIATTotal','BwdIATMean','BwdIATStd','BwdIATMax','BwdIATMin','BwdPackets/s',
-                        'ActiveMean','ActiveStd','ActiveMax','ActiveMin',
-                        'IdleMean','IdleStd','IdleMax','IdleMin', 'Label'.
+- Must include columns: `Timestamp`, `FlowDuration`,`FlowBytes/s`,`FlowPackets/s`,`FlowIATMean`,`FlowIATStd`,
+                        `FlowIATMax`,`FlowIATMin`,`FwdIATTotal`,`FwdIATMean`,`FwdIATStd`,`FwdIATMax`,
+                        `FwdIATMin`,`FwdPackets/s`,`BwdIATTotal`,`BwdIATMean`,`BwdIATStd`,`BwdIATMax`,
+                        `BwdIATMin`,`BwdPackets/s`,`ActiveMean`,`ActiveStd`,`ActiveMax`,`ActiveMin`,
+                        `IdleMean`,`IdleStd`,`IdleMax`,`IdleMin`, `Label`.
 - `Label`: `BENIGN` or attack type (e.g. `UDPLag`). Column names are normalized (spaces stripped).
 
 ## Pipeline (matches notebook)
